@@ -29,14 +29,15 @@ Machine Learning Modeling Checklists
 - PCA / Factor analysis?
 
 ## Modeling
+- Train-test split ([sklearn](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html))
 - [Model choice](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 
 ## Evaluation
 - `sklearn.metrics`  
-- `metrics.accuracy_score`  
-- `metrics.confusion_matrx`  
-- `metrics.recall_score`, `metrics.precision_score`  
-- `metrics.roc_curve`
-- `metrics.roc_auc_scroe`  
+    - `metrics.accuracy_score`  
+    - `metrics.confusion_matrx`  
+    - `metrics.recall_score`, `metrics.precision_score`  
+    - `metrics.roc_curve`
+    - `metrics.roc_auc_scroe`  
 - `sklearn.cross_validation`  
-- `cross_val_score`
+    - `cross_val_score`
