@@ -14,7 +14,8 @@ Machine Learning Modeling Checklists
 
 ## Preprocessing 
 ### Preprocessing categorical features
-- [LabelEncoder](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)  
+- [`pd.get_dummies()`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.get_dummies.html) 
+or [LabelEncoder](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)  
 - Bins to number (e.g. bin → mean or mode / bin → lower&uper bound)  
 - Combine labels (e.g. 95616 → 956) (e.g. rare levels → ‘other’)  
 - Dummy coding / One-hot encoder
@@ -39,5 +40,6 @@ Machine Learning Modeling Checklists
     - `metrics.recall_score`, `metrics.precision_score`  
     - `metrics.roc_curve`
     - `metrics.roc_auc_scroe`  
+    - `metrics.classification_report`
 - `sklearn.cross_validation`  
     - `cross_val_score`
