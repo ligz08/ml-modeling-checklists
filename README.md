@@ -14,11 +14,11 @@ Machine Learning Modeling Checklists
 
 ## Preprocessing 
 ### Preprocessing categorical features
-- [`pd.get_dummies()`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.get_dummies.html) 
-or [LabelEncoder](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)  
+- [LabelEncoder](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)  
 - Bins to number (e.g. bin → mean or mode / bin → lower&uper bound)  
 - Combine labels (e.g. 95616 → 956) (e.g. rare levels → ‘other’)  
-- Dummy coding / One-hot encoder
+- Cat → {0,1} encoding: [`pd.get_dummies()`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.get_dummies.html) 
+  / [One-hot encoder](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
 
 ### Preprocessing continuous features
 - Binning?  
