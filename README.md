@@ -27,7 +27,7 @@ or [LabelEncoder](http://scikit-learn.org/stable/modules/generated/sklearn.prepr
 - Normalize  
 - Make new features? (e.g. height & weight → BMI)  
 - Outliers?  
-- PCA / Factor analysis?
+- Dimension reduction / PCA / Factor analysis?
 
 ## Modeling
 - Train-test split ([sklearn](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html))
