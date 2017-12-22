@@ -32,17 +32,21 @@ Use `sklearn.metrics.pairwise_distances()`
 ### PCA Theory
 The objective of PCA is to find several *orthogonal* dimensions to project the data on, 
 while preserving the greatest *variance* in data.  
-![PCA](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/720px-GaussianScatterPCA.svg.png)
+
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/720px-GaussianScatterPCA.svg.png" alt="PCA" width="60%">
+<br>
+</center>
+
 
 In practice, `sklearn` employs the singular vector decomposition (SVD) method to find principal components.
 
 ### SVD Theory
 Every matrix, square or not, can be decomposed to the product of 3 matrices:  
 
-![SVD](http://images.slideplayer.com/16/5189063/slides/slide_6.jpg)
-
-<center>
-<img src="https://latex.codecogs.com/gif.latex?A_{[m&space;\times&space;n]}&space;=&space;U_{[m&space;\times&space;r]}&space;\Sigma_{[r&space;\times&space;r]]}&space;(V_{[n&space;\times&space;r]})^T" title="A_{[m \times n]} = U_{[m \times r]} \Sigma_{[r \times r]]} (V_{[n \times r]})^T" />
+<center><img src="http://images.slideplayer.com/16/5189063/slides/slide_6.jpg" alt="SVD" width="60%">
+<br>
+<img src="https://latex.codecogs.com/gif.latex?A_{[m&space;\times&space;n]}&space;=&space;U_{[m&space;\times&space;r]}&space;\Sigma_{[r&space;\times&space;r]}&space;(V_{[n&space;\times&space;r]})^T" title="A_{[m \times n]} = U_{[m \times r]} \Sigma_{[r \times r]]} (V_{[n \times r]})^T" />
 </center>
 
 where  
