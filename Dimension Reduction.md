@@ -32,7 +32,6 @@ Use `sklearn.metrics.pairwise_distances()`
 ### PCA Theory
 The objective of PCA is to find several *orthogonal* dimensions to project the data on, 
 while preserving the greatest *variance* in data.  
-
 ![PCA](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/720px-GaussianScatterPCA.svg.png)
 
 In practice, `sklearn` employs the singular vector decomposition (SVD) method to find principal components.

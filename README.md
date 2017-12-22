@@ -27,10 +27,10 @@ or [LabelEncoder](http://scikit-learn.org/stable/modules/generated/sklearn.prepr
 - Normalize  
 - Make new features? (e.g. height & weight → BMI)  
 - Outliers?  
-- Dimension reduction / PCA / Factor analysis?
+- [Dimension reduction / PCA](Dimension%20Reduction.md) / Factor analysis?
 
 ## Modeling
-- Train-test split ([sklearn](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html))
+- [Train-test split](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
 - [Model choice](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 
 ## Evaluation
