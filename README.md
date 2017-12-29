@@ -6,10 +6,10 @@ Machine Learning Modeling Checklists
 (useful options: `use_col`, `parse_dates`)
 
 ## Check data
-- Check shape  
-- Check missing values  
+- Shape: observations, features  
+- Missing values  
 - (Cat features) check label counts split (train vs. test) -- bar plot  
-- (Cont features) check distribution -- violin plot  
+- (Cont features) check distribution -- [violin plot](https://seaborn.pydata.org/generated/seaborn.violinplot.html)  
 - (Target feature) check distribution/patterns, imbalanced?
 
 ## Preprocessing 
