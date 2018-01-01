@@ -18,7 +18,17 @@ the larger ![](https://latex.codecogs.com/gif.latex?k) you end up with.
 More about random projection at: [Sci-Kit Learn random projection documentation](http://scikit-learn.org/stable/modules/random_projection.html).
 
 ### Gaussian Random Projection
-`sklearn.random_projection.GaussianRandomProjection()`
+[`sklearn.random_projection.GaussianRandomProjection()`](http://scikit-learn.org/stable/modules/generated/sklearn.random_projection.GaussianRandomProjection.html)
+
+```python
+>>> import numpy as np
+>>> from sklearn import random_projection
+>>> X = np.random.rand(100, 10000)    # matrix of 100 rows, 10000 columns
+>>> transformer = random_projection.GaussianRandomProjection()
+>>> X_new = transformer.fit_transform(X)
+>>> X_new.shape
+(100, 3947)      # dimension is reduced from 10000 to 3947
+```
 
 ### Sparse Random Projection  
 `sklearn.random_projection.SparseRandomProjection()`: faster, takes less memory than Gaussian random projection.
@@ -68,6 +78,10 @@ Values in ![V](https://latex.codecogs.com/gif.latex?V) represent how strongly ea
 
 `sklearn.decomposition.SparsePCA()`
 
+`sklearn.decomposition.IncrementalPCA()`
+
 
 ## Manifold Learning
+Manifold learning is an approach to *non-linear* dimension reduction.
+
 MDS = multi-dimensional scaling
