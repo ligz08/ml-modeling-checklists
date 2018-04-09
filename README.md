@@ -18,7 +18,9 @@ import seaborn as sns
 ## Explore
 - Shape: observations, features  
 - Missing values  
-- Cat features: check distribution -- bar plot  
+- Cat features: 
+    - count unique values of each feature
+    - check distribution -- bar plot  
 - Num features: check distribution -- 
     [violin plot](https://seaborn.pydata.org/generated/seaborn.violinplot.html)  
 - Target feature: check distribution/patterns, imbalanced?
